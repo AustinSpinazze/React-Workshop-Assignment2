@@ -1,0 +1,41 @@
+.board {
+    display: block;
+    text-align: center;
+}
+
+.board-grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.button {
+    margin-top: 25px;
+    font-family: 'Amatic SC', cursive;
+    width: 180px;
+    height: 60px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #edf5e1;
+    background-color: #05386b;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #8ee4af ;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #edf5e1;
+    transform: translateY(-7px);
+  }
+
+.status {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 80px;
+}
