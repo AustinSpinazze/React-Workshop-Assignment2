@@ -1,3 +1,5 @@
+//Default board and winning patterns
+
 export const DEFAULT_BOARD = {
     squares: Array(9).fill(null),
     xIsNext: true,

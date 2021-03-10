@@ -1,3 +1,5 @@
+//Calculate winner function
+
 import { LINES } from './constants';
 
 export const calculateWinner = (squares) => {
